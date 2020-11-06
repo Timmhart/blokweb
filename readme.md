@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Tim Hart
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -69,16 +69,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Rode piste! Ik probeer thuis zoveel mogelijk te coderen. Het lukt alleen niet altijd zoals ik wil..
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Ik kies hier responsive.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** Ik wil spotify namaken. https://www.spotify.com/nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/page1a" width="375px" alt="homepagina Spotify">
+
+<img src="images/page1b" width="375px" alt="footer Spotify">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/page2a" width="375px" alt="Header premium pagina">
+
+<img src="images/page2b" width="375px" alt="Waarom premium Spotify">
+
+<img src="images/page2c" width="375px" alt="Premium package individueel">
