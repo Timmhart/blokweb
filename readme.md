@@ -77,14 +77,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/page1a.png" width="375px" alt="homepagina Spotify">
+<img src="images/page1a.PNG" width="375px" alt="homepagina Spotify">
 
-<img src="images/page1b.png" width="375px" alt="footer Spotify">
+<img src="images/page1b.PNG" width="375px" alt="footer Spotify">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/page2a.png" width="375px" alt="Header premium pagina">
+<img src="images/page2a.PNG" width="375px" alt="Header premium pagina">
 
-<img src="images/page2b.png" width="375px" alt="Waarom premium Spotify">
+<img src="images/page2b.PNG" width="375px" alt="Waarom premium Spotify">
 
-<img src="images/page2c.png" width="375px" alt="Premium package individueel">
+<img src="images/page2c.PNG" width="375px" alt="Premium package individueel">
