@@ -1,5 +1,253 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  background-color: black;
+  font-family: 'Circular Spotify Tx T', sans-serif;
+}
+
+@font-face {
+  font-family: 'Circular Spotify Tx T';
+  src: url('../fonts/circular/CircularSpotifyTxT-Med.woff2') format('woff2'),
+      url('../fonts/circular/CircularSpotifyTxT-Med.woff') format('woff'),
+      url('../fonts/circular/CircularSpotifyTxT-Med.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Spotify Tx T';
+  src: url('../fonts/circular/CircularSpotifyTxT-Book.woff2') format('woff2'),
+      url('../fonts/circular/CircularSpotifyTxT-Book.woff') format('woff'),
+      url('../fonts/circular/CircularSpotifyTxT-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Spotify Tx T';
+  src: url('../fonts/circular/CircularSpotifyTxT-Bold.woff2') format('woff2'),
+      url('../fonts/circular/CircularSpotifyTxT-Bold.woff') format('woff'),
+      url('../fonts/circular/CircularSpotifyTxT-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Spotify Tx T';
+  src: url('../fonts/circular/CircularSpotifyTxT-Light.woff2') format('woff2'),
+      url('../fonts/circular/CircularSpotifyTxT-Light.woff') format('woff'),
+      url('../fonts/circular/CircularSpotifyTxT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Spotify Tx T';
+  src: url('../fonts/circular/CircularSpotifyTxT-Black.woff2') format('woff2'),
+      url('../fonts/circular/CircularSpotifyTxT-Black.woff') format('woff'),
+      url('../fonts/circular/CircularSpotifyTxT-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ALles van de header */
+/* de button */
+button {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+  appearance: none;
+  text-decoration: none;
+  border: none;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button span {
+  position: absolute;
+  width: 1em;
+  height: 2px;
+  background-color: #fff;
+  transition: .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+button span:first-of-type {
+  transform: translatey(-5px);
+}
+
+button span:last-of-type {
+  transform: translatey(5px);
+}
+
+body.menuOpen button span {
+  background-color: #fff;
+  transition: .2s ease-out;
+}
+
+body.menuOpen button span:first-of-type {
+  transform: translatey(0) rotate(-45deg);
+}
+
+body.menuOpen button span:nth-of-type(2) {
+  opacity: 0;
+}
+
+body.menuOpen button span:last-of-type {
+  transform: translatey(0) rotate(45deg);
+}
+
+/* main section 1 */
+article {
+  padding: 80px 35px 15px;
+  text-align: center;
+}
+
+img {
+  width: 10em;
+  margin: 16px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  margin: 16px 0 30px;
+  font-weight: normal;
+}
+
+a {
+  color: black;
+  font-size: 13px;
+}
+
+/* alle classes onder elkaar */
+
+.logo-spotify {
+  width: 6.5em;
+  margin: .6em 0 .6em 1em;
+}
+
+.logo-spotify-footer {
+  width: 6.5em;
+  margin: 2.6em 0 .6em 1em;
+
+}
+
+.header-flex-sticky {
+position: fixed;
+background: #000;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.start {
+  background-color: #ff4532;
+}
+
+.p-spremium {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    margin: 0;
+    display: inline-block;
+}
+
+.btn-3mth-free {
+  background: #000;
+  border-radius: 500px;
+  text-decoration: none;
+  padding: 17px 48px;
+  color: #fff !important;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.individual-p {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.individual-p:nth-of-type(3) {
+  margin-top: 0;
+  font-size: 13px;
+}
+
+
+/* main section 2 */
+
+.sect-second {
+  background: #2d46b9;
+  text-align: center;
+  color: #1ed760;
+  padding-bottom: 13.5em;
+}
+
+.sect-second-h2 {
+  margin-top: 0;
+  padding-top: 2em;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 4em;
+}
+
+.sect-second-h4 {
+  font-size: 30px;
+  margin: 0 0 1em;
+}
+
+.sect-second-h3 {
+  font-size: 14px;
+  margin: 0 0 2.5em;
+}
+
+.btn-spotify-free {
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #1ed760;
+  color: #2d46b9;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* alle css van de footer */
+
+ul {
+  padding: 2em 0 2em 1em;
+  list-style-type: none;
+}
+
+li {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 1.5em;
+}
+
+li:nth-of-type(1) {
+  color: #919496;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
