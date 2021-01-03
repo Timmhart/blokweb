@@ -1,7 +1,4 @@
-var deButton = document.querySelector("button");
-
-deButton.addEventListener("click", openMenu);
-
-function openMenu() {
-  document.body.classList.toggle("menuOpen");
+function onClickMenu() {
+  document.getElementById('menu').classList.toggle("change");
+  document.getElementById('nav').classList.toggle("change");
 }
