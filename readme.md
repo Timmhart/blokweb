@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 ## Eindgesprek (week 7/8)
 
--Ik vond dat het structureren en nette HTML / CSS code schrijven heel goed ging, beter dan dat ik eerst deed. Ik had als extra voor responsive gekozen, alleen ik weet niet waarom, maar elke keer als ik een media query schreef voor een bepaald element ging het andere element stuk voor Mobile, ik heb dit uiteindelijk opgegeven.. en ben verder gegaan met zoveel mogelijk voor de scope plane..-
+-Ik vond dat het structureren en nette HTML / CSS code schrijven heel goed ging, beter dan dat ik eerst deed. Ik had als focus voor responsive gekozen, alleen ik weet niet waarom, maar elke keer als ik een media query schreef voor een bepaald element ging het andere element stuk voor Mobile, ik heb dit uiteindelijk opgegeven.. en ben verder gegaan met zoveel mogelijk voor de scope plane..-
 
 **Screenshot(s):**
 
@@ -36,8 +36,8 @@ https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 -Het hamburger menu met animatie van hamburger menu naar kruis heb ik gedaan dmv js en transform-
 
-<img src="images/fixed1.PNG" width="375px" alt="homepagina Spotify">
-<img src="images/js.PNG" width="375px" alt="hamburger menu Spotify">
+<img src="images/fixed1.png" width="375px" alt="homepagina Spotify">
+<img src="images/js.png" width="375px" alt="hamburger menu Spotify">
 
 ## Voortgang 1 (week 3)
 
@@ -50,8 +50,8 @@ https://www.youtube.com/watch?v=dIyVTjJAkLw
 -dmv position: fixed; heb ik ervoor gezorgd dat de nav balk op zijn plek blijft wanneer ik naar beneden scroll-
 -dmv z-index: 1; zorg ik ervoor dat de nav balk boven elk element blijft.-
 
-<img src="images/fixed1.PNG" width="375px" alt="homepagina Spotify">
-<img src="images/fixed2.PNG" width="375px" alt="homepagina Spotify">
+<img src="images/fixed1.png" width="375px" alt="homepagina Spotify">
+<img src="images/fixed2.png" width="375px" alt="homepagina Spotify">
 
 ### Agenda voor meeting
 
@@ -67,6 +67,7 @@ https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 -Allereerst ben ik begonnen met de structuur van de html. Door te kijken welke HTML elementen je nodig hebt krijg je een beter beeld van de structuur.-
 
+<img scr="images/mark.png" width="375px" alt="Markdown schets spotify.com">
 
 
 ## Intake (week 1)
