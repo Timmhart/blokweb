@@ -67,7 +67,7 @@ https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 -Allereerst ben ik begonnen met de structuur van de html. Door te kijken welke HTML elementen je nodig hebt krijg je een beter beeld van de structuur.-
 
-<img scr="images/mark.PNG" width="375px" alt="Markdown schets spotify.com">
+<img scr="images/mark.png" width="375px" alt="Markdown schets spotify.com">
 
 
 ## Intake (week 1)
