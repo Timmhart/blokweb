@@ -1,20 +1,24 @@
 # Procesverslag
 **Auteur:** Tim Hart
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+Markdown cheat sheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -mijn grootste bron was w3schools: https://www.w3schools.com/-
+2. -Verder heb ik inspiratie gehaald uit de opdrachten van FED: https://dlo.mijnhva.nl/d2l/le/content/192710/Home-
+3. -Voor het hamburger menu heb ik inspiratie gezocht op youtube door de volgende twee filmpjes te bekijken:
+https://www.youtube.com/watch?v=F-mvXKKoSCU
+En 
+https://www.youtube.com/watch?v=dIyVTjJAkLw
+4. Als laatste heb ik hulp gezocht bij medestudenten en student assistenten in het kanaal van FED op teams.-
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-Ik vond dat het structureren en nette HTML / CSS code schrijven heel goed ging, beter dan dat ik eerst deed. Ik had als extra voor responsive gekozen, alleen ik weet niet waarom, maar elke keer als ik een media query schreef voor een bepaald element ging het andere element stuk voor Mobile, ik heb dit uiteindelijk opgegeven.. en ben verder gegaan met zoveel mogelijk voor de scope plane..-
 
 **Screenshot(s):**
 
@@ -30,9 +34,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-Het hamburger menu met animatie van hamburger menu naar kruis heb ik gedaan dmv js en transform-
 
-
+<img src="images/fixed1.PNG" width="375px" alt="homepagina Spotify">
+<img src="images/js.PNG" width="375px" alt="hamburger menu Spotify">
 
 ## Voortgang 1 (week 3)
 
@@ -42,17 +47,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+-dmv position: fixed; heb ik ervoor gezorgd dat de nav balk op zijn plek blijft wanneer ik naar beneden scroll-
+-dmv z-index: 1; zorg ik ervoor dat de nav balk boven elk element blijft.-
+
+<img src="images/fixed1.PNG" width="375px" alt="homepagina Spotify">
+<img src="images/fixed2.PNG" width="375px" alt="homepagina Spotify">
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
@@ -62,7 +65,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+-Allereerst ben ik begonnen met de structuur van de html. Door te kijken welke HTML elementen je nodig hebt krijg je een beter beeld van de structuur.-
 
 
 

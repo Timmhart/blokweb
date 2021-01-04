@@ -60,6 +60,7 @@ section.nav-flex-sticky {
   justify-content: space-between;
   position: fixed;
   background: #000;
+  z-index: 1;
 }
 
 .nav-flex-sticky a img {
@@ -100,6 +101,15 @@ section.nav-flex-sticky {
 
 .nav li a:hover {
 	font-weight: bold;
+  color: #20d760;
+}
+
+.nav li a:active {
+  color: #1d75de;
+}
+
+.nav li a:focus {
+  /* border: 3px solid #1d75de; */
 }
 
 .nav li {
@@ -110,7 +120,6 @@ section.nav-flex-sticky {
 .nav {
   text-align: left;
   padding: 5em 0 10em 1em;
-  /* transform: translateX(20em); */
   display: none;
 }
 
@@ -467,4 +476,40 @@ article.waarom-premium section p {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.premium-card a:
+/* index.html media queries: */
+
+@media screen and (min-width: 500px) {
+  .nav-flex-sticky a img {
+    width: 40%;
+    height: 7vh;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .nav-flex-sticky a img {
+    width: 40%;
+    height: 9vh;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .nav-flex-sticky a img {
+    width: 30%;
+    height: 10vh;
+  }
+  /* section.premium-article-section-media {
+    display: flex;
+    flex-direction: row;
+  } */
 }
