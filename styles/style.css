@@ -1,6 +1,6 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -13,47 +13,49 @@ body {
 @font-face {
   font-family: 'Circular Spotify Tx T';
   src: url('../fonts/circular/CircularSpotifyTxT-Med.woff2') format('woff2'),
-      url('../fonts/circular/CircularSpotifyTxT-Med.woff') format('woff'),
-      url('../fonts/circular/CircularSpotifyTxT-Med.ttf') format('truetype');
+    url('../fonts/circular/CircularSpotifyTxT-Med.woff') format('woff'),
+    url('../fonts/circular/CircularSpotifyTxT-Med.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Circular Spotify Tx T';
   src: url('../fonts/circular/CircularSpotifyTxT-Book.woff2') format('woff2'),
-      url('../fonts/circular/CircularSpotifyTxT-Book.woff') format('woff'),
-      url('../fonts/circular/CircularSpotifyTxT-Book.ttf') format('truetype');
+    url('../fonts/circular/CircularSpotifyTxT-Book.woff') format('woff'),
+    url('../fonts/circular/CircularSpotifyTxT-Book.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Circular Spotify Tx T';
   src: url('../fonts/circular/CircularSpotifyTxT-Bold.woff2') format('woff2'),
-      url('../fonts/circular/CircularSpotifyTxT-Bold.woff') format('woff'),
-      url('../fonts/circular/CircularSpotifyTxT-Bold.ttf') format('truetype');
+    url('../fonts/circular/CircularSpotifyTxT-Bold.woff') format('woff'),
+    url('../fonts/circular/CircularSpotifyTxT-Bold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Circular Spotify Tx T';
   src: url('../fonts/circular/CircularSpotifyTxT-Light.woff2') format('woff2'),
-      url('../fonts/circular/CircularSpotifyTxT-Light.woff') format('woff'),
-      url('../fonts/circular/CircularSpotifyTxT-Light.ttf') format('truetype');
+    url('../fonts/circular/CircularSpotifyTxT-Light.woff') format('woff'),
+    url('../fonts/circular/CircularSpotifyTxT-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Circular Spotify Tx T';
   src: url('../fonts/circular/CircularSpotifyTxT-Black.woff2') format('woff2'),
-      url('../fonts/circular/CircularSpotifyTxT-Black.woff') format('woff'),
-      url('../fonts/circular/CircularSpotifyTxT-Black.ttf') format('truetype');
+    url('../fonts/circular/CircularSpotifyTxT-Black.woff') format('woff'),
+    url('../fonts/circular/CircularSpotifyTxT-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 /* ALles van de header */
-
-
 section.nav-flex-sticky {
   display: flex;
   flex-direction: row;
@@ -71,38 +73,38 @@ section.nav-flex-sticky {
 }
 
 #menu {
-	width: 1.5625em;
-	height: 0.625em;
-	margin: 1.25em;
-	cursor: pointer;
+  width: 1.5625em;
+  height: 0.625em;
+  margin: 1.25em;
+  cursor: pointer;
 }
 
 .bar {
-	height: 0.25em;
-	width: 100%;
-	background-color: #fff;
-	display: block;
-	border-radius: 0.3125em;
-	transition: 0.3s ease;
+  height: 0.25em;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  border-radius: 0.3125em;
+  transition: 0.3s ease;
 }
 
 #bar1 {
-	transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
 }
 
 #bar3 {
-	transform: translateY(0.25em);
+  transform: translateY(0.25em);
 }
 
 .nav li a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
   font-size: 1.875em;
   padding-bottom: 0;
 }
 
 .nav li a:hover {
-	font-weight: bold;
+  font-weight: bold;
   color: #20d760;
 }
 
@@ -111,8 +113,8 @@ section.nav-flex-sticky {
 }
 
 .nav li {
-	list-style: none;
-	padding: 1em 0;
+  list-style: none;
+  padding: 1em 0;
 }
 
 .nav {
@@ -122,40 +124,38 @@ section.nav-flex-sticky {
 }
 
 #menu-bar {
-	top: 0;
-	right: 0;
-	position: absolute;
+  top: 0;
+  right: 0;
+  position: absolute;
 }
 
 #menu-bar {
-	z-index: 2;
+  z-index: 2;
 }
 
 .change .bar {
-	background-color: white;
+  background-color: white;
 }
 
 .change #bar1 {
-	transform: translateY(0.25em) rotateZ(-45deg);
+  transform: translateY(0.25em) rotateZ(-45deg);
 }
 
 .change #bar3 {
-	transform: translateY(-0.25em) rotate(45deg);
+  transform: translateY(-0.25em) rotate(45deg);
 }
 
 .change #bar2 {
-	opacity: 0;
+  opacity: 0;
 }
 
 .change {
-	display: block;
+  display: block;
 }
 
-
 /* main section 1 */
-
 article {
-  padding: 5em 1.25em 0 1.25em ;
+  padding: 5em 1.25em 0 1.25em;
   text-align: center;
 }
 
@@ -187,7 +187,6 @@ section.start a {
 }
 
 /* alle classes onder elkaar */
-
 .logo-spotify {
   width: 6.5em;
   /* margin: .6em 0 .6em 1em; */
@@ -196,7 +195,6 @@ section.start a {
 .logo-spotify-footer {
   width: 6.5em;
   margin: 2.6em 0 .6em 1em;
-
 }
 
 .start {
@@ -208,13 +206,13 @@ section.start a {
 }
 
 .p-spremium {
-    font-size: 0.875em;
-    line-height: 1em;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 500;
-    margin: 0;
-    display: inline-block;
+  font-size: 0.875em;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  margin: 0;
+  display: inline-block;
 }
 
 .btn-3mth-free {
@@ -241,9 +239,7 @@ section.start a {
   font-size: 0.8125em;
 }
 
-
 /* main section 2 */
-
 .sect-second {
   background: #2d46b9;
   text-align: center;
@@ -287,7 +283,6 @@ section.start a {
 }
 
 /* alle css van de footer */
-
 footer {
   margin-top: 2em;
 }
@@ -311,7 +306,6 @@ footer {
 }
 
 /* Alles van premium.html */
-
 section.start-premium {
   background-color: #1d75de;
   color: #fff;
@@ -356,13 +350,13 @@ section.premium-article-section {
 }
 
 .flex-row-links a:nth-of-type(1) {
-text-decoration: none;
-color: #fff;
-background-color: #000;
-padding: 1.5em 1.5em;
-border-radius: 18.75em;
-text-transform: uppercase;
-letter-spacing: 0.15em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 1.5em 1.5em;
+  border-radius: 18.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .premium-article-section p {
@@ -391,10 +385,8 @@ article.premium-article img {
   width: 30%;
 }
 
-article.waarom-premium section {
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
+.flex-row-links a:hover {
+  color: #20d760;
 }
 
 article.waarom-premium section h6 {
@@ -424,7 +416,7 @@ article.waarom-premium section p {
 
 .premium-card {
   border-radius: 0.3125em;
-  box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.47);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.47);
   padding-top: 1.25em;
   padding-left: 1.1875em;
   text-align: left;
@@ -436,14 +428,14 @@ article.waarom-premium section p {
 }
 
 .premium-card p:nth-of-type(1) {
-   background-color: #2e77d0;
-   padding: .3em .3em .3em .5em;
-   margin-bottom: 1.25em;
-   font-weight: 700;
-   width: 30%;
-   border-radius: 0.3125em;
-   font-size: 0.875em;
-   color: #fff;
+  background-color: #2e77d0;
+  padding: .3em .3em .3em .5em;
+  margin-bottom: 1.25em;
+  font-weight: 700;
+  width: 30%;
+  border-radius: 0.3125em;
+  font-size: 0.875em;
+  color: #fff;
 }
 
 .premium-card p:nth-of-type(3) {
@@ -496,117 +488,122 @@ section.kies-premium-div {
 }
 
 @keyframes jump {
-  0%{
-   transform:none;
- }
- 10%{
-   transform:scale(1.2, .8);
- }
- 20%{
-   transform:scale(.6, 1.5) translateY(-.25em);
-   color: #20d760;
- }
- 30%{
-   transform:scale(1.3, .7);
- }
- 40%{
-   transform:scale(.9, 1.1);
- }
- 50%{
-   transform:none;
- }
- 100%{
-   transform:none;
- }
+  0% {
+    transform: none;
+  }
+
+  10% {
+    transform: scale(1.2, .8);
+  }
+
+  20% {
+    transform: scale(.6, 1.5) translateY(-.25em);
+    color: #20d760;
+  }
+
+  30% {
+    transform: scale(1.3, .7);
+  }
+
+  40% {
+    transform: scale(.9, 1.1);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  100% {
+    transform: none;
+  }
 }
 
 section.kies-premium-div {
- font-weight:700;
+  font-weight: 700;
 }
 
 section.kies-premium-div div {
- width: auto;
- transform-origin: center bottom;
- animation-name: jump;
- animation-duration: 2.25s;
- animation-iteration-count: 5;
- animation-play-state: paused;
+  width: auto;
+  transform-origin: center bottom;
+  animation-name: jump;
+  animation-duration: 2.25s;
+  animation-iteration-count: 5;
+  animation-play-state: paused;
 }
 
 section.kies-premium-div div:nth-of-type(1) {
- animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 section.kies-premium-div div:nth-of-type(2) {
- animation-delay: .15s;
+  animation-delay: .15s;
 }
 
 section.kies-premium-div div:nth-of-type(3) {
- animation-delay: .3s;
+  animation-delay: .3s;
 }
 
 section.kies-premium-div div:nth-of-type(4) {
- animation-delay: .45s;
+  animation-delay: .45s;
 }
 
 section.kies-premium-div div:nth-of-type(5) {
- animation-delay: .6s;
+  animation-delay: .6s;
 }
 
 section.kies-premium-div div:nth-of-type(6) {
- animation-delay: .75s;
+  animation-delay: .75s;
 }
 
 section.kies-premium-div div:nth-of-type(7) {
- animation-delay: .9s;
+  animation-delay: .9s;
 }
 
 section.kies-premium-div div:nth-of-type(8) {
- animation-delay: 1.05s;
+  animation-delay: 1.05s;
 }
 
 section.kies-premium-div div:nth-of-type(9) {
- animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 section.kies-premium-div div:nth-of-type(10) {
- animation-delay: 1.35s;
+  animation-delay: 1.35s;
 }
 
 section.kies-premium-div div:nth-of-type(11) {
- animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 section.kies-premium-div div:nth-of-type(12) {
- animation-delay: 1.65s;
+  animation-delay: 1.65s;
 }
 
 section.kies-premium-div div:nth-of-type(13) {
- animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
 
 section.kies-premium-div div:nth-of-type(14) {
- animation-delay: 1.95s;
+  animation-delay: 1.95s;
 }
 
 section.kies-premium-div div:nth-of-type(15) {
- animation-delay: 2.1s;
+  animation-delay: 2.1s;
 }
 
 section.kies-premium-div div:nth-of-type(16) {
- animation-delay: 2.25s;
+  animation-delay: 2.25s;
 }
 
 section.kies-premium-div:hover div {
- animation-play-state: running;
+  animation-play-state: running;
 }
-
 
 .premium-card a:hover {
   background-color: #1d75de;
 }
-/* index.html media queries: */
 
+/* index.html media queries: */
 @media screen and (min-width: 500px) {
   .nav-flex-sticky a img {
     width: 24%;
@@ -628,41 +625,44 @@ section.kies-premium-div:hover div {
     height: 6vh;
     padding-left: 3em;
   }
+
   #menu {
     display: none;
   }
+
   #nav {
     position: fixed;
     top: -1em;
     right: 6em;
     z-index: 1;
   }
+
   #nav li a {
     padding: 1em;
     font-size: 1.1em;
     font-weight: 700;
   }
 
-.flex-premium-column {
-  display: flex;
-  flex-direction: column;
-}
+  .flex-premium-column {
+    display: flex;
+    flex-direction: column;
+  }
 
-.flex-premium-column img {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-}
+  .flex-premium-column img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
   section.sect-second {
     text-align: left;
     padding: 5em 0 16em 14em;
   }
 
-    section.sect-second h2 {
-      letter-spacing: .125em;
-    }
+  section.sect-second h2 {
+    letter-spacing: .125em;
+  }
 
   section.sect-second h4 {
     font-size: 4em;
@@ -695,15 +695,15 @@ section.kies-premium-div:hover div {
   }
 
   .premium-article-section a:nth-of-type(1) {
-      width: 27%;
-      height: 15%;
-      padding: 1.3em;
-      font-weight: 700;
-    }
+    width: 27%;
+    padding: 1.3em;
+    font-weight: 700;
+  }
 
   .premium-article-section a:nth-of-type(2) {
     width: 27%;
     height: 15%;
+    font-weight: 700;
   }
 
   .flex-row-img {
@@ -721,11 +721,11 @@ section.kies-premium-div:hover div {
     font-size: 1.875em;
   }
 
-.waarom-premium h1 {
-  font-size: 3.5em;
-  padding-top: 2.6em;
-  font-weight: 700;
-}
+  .waarom-premium h1 {
+    font-size: 3.5em;
+    padding-top: 2.6em;
+    font-weight: 700;
+  }
 
   .start-premium {
     padding: 2.5em 0 6em 9em;
@@ -746,6 +746,22 @@ section.kies-premium-div:hover div {
     width: 40%;
   }
 
+  .premium-card a {
+    margin-left: 1.4em;
+  }
+
+  .link-1 ul li:last-child {
+    padding-bottom: 5.7em;
+  }
+
+  .link-3 ul li:last-child {
+      padding-bottom: 1.5em;
+    }
+
+  .link-4 ul li:last-child {
+    padding-bottom: 5.7em;
+  }
+
   .footer-links {
     display: flex;
     flex-direction: row;
@@ -756,25 +772,33 @@ section.kies-premium-div:hover div {
     padding: 3em;
   }
 
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-links ul li:first-child a {
+    color: #919496;
+  }
+
   .btn-3mth-free {
     padding: 2em 4em;
   }
 
-    .btn-3mth-free:hover {
-      transition: .7s ease;
-      background-color: #1d75de;
-    }
+  .btn-3mth-free:hover {
+    transition: .7s ease;
+    background-color: #1d75de;
+  }
 
-      .btn-3mth-free:active {
-        border: 1px solid #fff;
-      }
+  .btn-3mth-free:active {
+    border: 1px solid #fff;
+  }
 
   .btn-3mth-free span {
-      font-size: 1.6em;
-    }
+    font-size: 1.6em;
+  }
 
-    .start h1 {
-      font-size: 3em;
-    }
-
+  .start h1 {
+    font-size: 3em;
+  }
 }
